@@ -4,5 +4,5 @@ import com.panwrona.prices.entity.Price
 import io.reactivex.rxjava3.core.Flowable
 
 interface PricesRepository {
-    fun prices(marketName: String): Flowable<Price>
+    fun prices(market: String): Flowable<Price>
 }

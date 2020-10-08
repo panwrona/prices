@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Prices</string>
+    <string name="market_pln">PLN</string>
+    <string name="market_eur">EUR</string>
+    <string name="market_gold">GOLD</string>
 </resources>
