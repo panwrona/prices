@@ -20,6 +20,6 @@ class PricesRepositoryImpl(
             .distinctUntilChanged()
     }
 
-    private fun generatePrice(marketName: String?): Price =
+    private fun generatePrice(marketName: String): Price =
         Price(marketName, randomProvider.random(), Direction.UNKNOWN)
 }
